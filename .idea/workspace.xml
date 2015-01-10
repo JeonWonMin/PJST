@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1c2f569-4af5-42c9-9841-12c2f70c18e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/test/context.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/test/context1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/test/context2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PJST.iws" />
@@ -28,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="typeCheck-test4.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter2/test/typeCheck-test4.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.666666" vertical-offset="173" max-vertical-offset="765">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="scope1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter2/test/scope1.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,12 +99,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="context1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="context1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter2/test/context1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0135136" vertical-offset="0" max-vertical-offset="765">
+            <state vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="765">
               <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="context2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter2/test/context2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3293919" vertical-offset="0" max-vertical-offset="705">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,6 +161,7 @@
         <option value="$PROJECT_DIR$/chapter2/test/closure4.html" />
         <option value="$PROJECT_DIR$/chapter2/test/context1.html" />
         <option value="$PROJECT_DIR$/chapter2/test/context.txt" />
+        <option value="$PROJECT_DIR$/chapter2/test/context2.html" />
       </list>
     </option>
   </component>
@@ -262,12 +264,7 @@
       <recent name="$PROJECT_DIR$/techniques" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.context1.html">
-    <configuration default="false" name="closure1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/closure1.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.context2.html">
     <configuration default="false" name="closure2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/closure2.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -284,6 +281,11 @@
       <method />
     </configuration>
     <configuration default="false" name="context1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/context1.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="context2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/context2.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -326,19 +328,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.closure1.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.closure2.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.closure3.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.closure4.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.context1.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.closure2.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.closure3.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.closure4.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.context1.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.context2.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.context1.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.closure4.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.closure3.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.closure2.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.closure1.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.context2.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.context1.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.closure4.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.closure3.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.closure2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +421,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420881498860</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="context.txt - 콘텍스트에 관한 설명&#10;context1.html  - 한 콘텍스트 안에서 함수를 사용한 후 콘텍스트를 다른 변수로 바꾸는 예">
+      <created>1420909907420</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1420909907421</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -492,7 +500,8 @@
     <MESSAGE value="클로저로 함수를 커링하는 예" />
     <MESSAGE value="변수들을 전역 유효범위에서 볼 수 없게 익명 함수를 사용하는 예" />
     <MESSAGE value="클로저를 사용하는 여러 함수를 생성하는데 필요한 유효범위를 만드는 익명함수의 예" />
-    <option name="LAST_COMMIT_MESSAGE" value="클로저를 사용하는 여러 함수를 생성하는데 필요한 유효범위를 만드는 익명함수의 예" />
+    <MESSAGE value="context.txt - 콘텍스트에 관한 설명&#10;context1.html  - 한 콘텍스트 안에서 함수를 사용한 후 콘텍스트를 다른 변수로 바꾸는 예" />
+    <option name="LAST_COMMIT_MESSAGE" value="context.txt - 콘텍스트에 관한 설명&#10;context1.html  - 한 콘텍스트 안에서 함수를 사용한 후 콘텍스트를 다른 변수로 바꾸는 예" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -719,9 +728,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter2/test/context1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0135136" vertical-offset="0" max-vertical-offset="765">
+        <state vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/test/context2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3293919" vertical-offset="0" max-vertical-offset="705">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

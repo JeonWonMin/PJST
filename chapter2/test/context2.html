@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="main" style="width: 100px; height: 100px; border: 1px dashed pink;">color changed!</div>
+<script>
+    // 함수 콘텍스트를 바꾸는 예
+
+    // 자신의 콘텍스트 배경색을 변경하는 간단한 함수
+    function changeColor( bgColor, txtColor ) {
+        this.style.backgroundColor = bgColor;
+        this.style.color = txtColor;
+    }
+
+    // window 객체에는 style 객체가 존재하지 않으므로
+    // window 객체에 대고 호출하면 호출이 실패한다.
+    //changeColor( "white" );
+
+    // ID가 main인 엘리먼트를 찾는다.
+    var main = document.getElementById("main");
+
+    // call 메서드를 사용해 검은색으로 바꾼다.
+    // call 메서드는 첫 번째 전달인자를 콘텍스트로 설정하고
+    // 나머지 전달인자를 함수의 전달인자로 넘긴다.
+    changeColor.call( main, "maroon", "white" );
+
+    // body 엘리먼트의 색을 설정하는 함수
+    function setBodyColor() {
+        // apply 메서드는 첫 번째 전달인자인 body 엘리먼트로
+        // 콘텍스트를 실행한다. 전달인자 배열인 두 번째 전달인자는
+        // 함수의 전달인자로 넘긴다.
+        changeColor.apply( document.body, arguments );
+    }
+
+    // body 엘리먼트의 배경색을 검은색으로 설정한다.
+    setBodyColor( "beige" );
+</script>
+</body>
+</html>
