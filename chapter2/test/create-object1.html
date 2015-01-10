@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 간단한 객체를 하나 생성하고 사용하기
+
+    // 이름을 하나 받아서 현재 콘텍스트에 저장하는 간단한 함수
+    function User( name ) {
+        this.name = name;
+    }
+
+    // 이름을 주면서 함수의 새 인스턴스를 생성한다.
+    var me = new User( "My Name" );
+
+    // 이름이 me의 프로퍼티로 설정된 것을 볼 수 있다.
+    console.log( me.name === "My Name" );
+
+    // 그리고 me가 User 객체의 인스턴스임을 알 수 있다.
+    console.log( me.constructor === User );
+
+    // 단순히 보면 User()가 함수이므로,
+    // 함수 취급을 하면 어떻게 될까?
+    User( "Test" );
+
+    // 이 함수의 this 콘텍스트가 설정되지 않았기 때문에
+    // 콘텍스트는 기본적으로 전역 변수 window가 된다.
+    // 그 결과 주어진 이름과 window.name이 같아진다.
+    console.log( window.name === "Test" );
+</script>
+</body>
+</html>

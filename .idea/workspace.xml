@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1c2f569-4af5-42c9-9841-12c2f70c18e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/test/object.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/test/create-object1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PJST.iws" />
@@ -69,16 +69,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="closure2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter2/test/closure2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="555">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="closure4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter2/test/closure4.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,11 +101,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="object.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="object.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter2/test/object.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4560811" vertical-offset="0" max-vertical-offset="615">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="-21.875" vertical-offset="0" max-vertical-offset="615">
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create-object1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter2/test/create-object1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46153846" vertical-offset="0" max-vertical-offset="910">
+              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -163,6 +163,7 @@
         <option value="$PROJECT_DIR$/chapter2/test/context.txt" />
         <option value="$PROJECT_DIR$/chapter2/test/context2.html" />
         <option value="$PROJECT_DIR$/chapter2/test/object.html" />
+        <option value="$PROJECT_DIR$/chapter2/test/create-object.html" />
       </list>
     </option>
   </component>
@@ -265,12 +266,7 @@
       <recent name="$PROJECT_DIR$/techniques" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.object.html">
-    <configuration default="false" name="closure3.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/closure3.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.create-object1.html">
     <configuration default="false" name="closure4.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/closure4.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -287,6 +283,11 @@
       <method />
     </configuration>
     <configuration default="false" name="object.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/object.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="create-object1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/create-object1.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -329,19 +330,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.closure3.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.closure4.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.context1.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.context2.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.object.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.closure4.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.context1.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.context2.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.object.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.create-object1.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.object.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.context2.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.context1.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.closure4.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.closure3.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.create-object1.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.object.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.context2.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.context1.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.closure4.html" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +435,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420910810658</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="간단한 객체를 하나 생성하고 프로퍼티를 설정하는 두 가지 예">
+      <created>1420912045469</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1420912045469</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -462,7 +469,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.4997367" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33056134" sideWeight="0.4997367" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33056134" sideWeight="0.4997367" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33056134" sideWeight="0.5002633" order="7" side_tool="true" content_ui="tabs" />
@@ -509,7 +516,8 @@
     <MESSAGE value="클로저를 사용하는 여러 함수를 생성하는데 필요한 유효범위를 만드는 익명함수의 예" />
     <MESSAGE value="context.txt - 콘텍스트에 관한 설명&#10;context1.html  - 한 콘텍스트 안에서 함수를 사용한 후 콘텍스트를 다른 변수로 바꾸는 예" />
     <MESSAGE value="함수 콘텍스트를 바꾸는 예 ( call, apply 사용 예 )" />
-    <option name="LAST_COMMIT_MESSAGE" value="함수 콘텍스트를 바꾸는 예 ( call, apply 사용 예 )" />
+    <MESSAGE value="간단한 객체를 하나 생성하고 프로퍼티를 설정하는 두 가지 예" />
+    <option name="LAST_COMMIT_MESSAGE" value="간단한 객체를 하나 생성하고 프로퍼티를 설정하는 두 가지 예" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -754,8 +762,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter2/test/object.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4560811" vertical-offset="0" max-vertical-offset="615">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="-21.875" vertical-offset="0" max-vertical-offset="615">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/test/create-object1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46153846" vertical-offset="0" max-vertical-offset="910">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding />
         </state>
       </provider>
