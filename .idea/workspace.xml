@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1c2f569-4af5-42c9-9841-12c2f70c18e4" name="Default" comment="클로저로 함수를 커링하는 예">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/test/closure2.html" />
+    <list default="true" id="b1c2f569-4af5-42c9-9841-12c2f70c18e4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/test/closure3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PJST.iws" />
@@ -27,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="overloading-test1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter2/test/overloading-test1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="735">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="typeCheck-test1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter2/test/typeCheck-test1.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,11 +109,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="closure2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="closure2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter2/test/closure2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22804055" vertical-offset="0" max-vertical-offset="592">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+            <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="555">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="closure3.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter2/test/closure3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5320946" vertical-offset="0" max-vertical-offset="592">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,6 +155,7 @@
         <option value="$PROJECT_DIR$/chapter2/test/scope3.html" />
         <option value="$PROJECT_DIR$/chapter2/test/closure1.html" />
         <option value="$PROJECT_DIR$/chapter2/test/closure2.html" />
+        <option value="$PROJECT_DIR$/chapter2/test/closure3.html" />
       </list>
     </option>
   </component>
@@ -257,12 +258,7 @@
       <recent name="$PROJECT_DIR$/techniques" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.closure2.html">
-    <configuration default="false" name="scope1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/scope1.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.closure3.html">
     <configuration default="false" name="scope2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/scope2.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -279,6 +275,11 @@
       <method />
     </configuration>
     <configuration default="false" name="closure2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/closure2.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="closure3.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/closure3.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -321,19 +322,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.scope1.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.scope2.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.scope3.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.closure1.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.closure2.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.scope2.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.scope3.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.closure1.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.closure2.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.closure3.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.closure2.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.closure1.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.scope3.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.scope2.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.scope1.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.closure3.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.closure2.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.closure1.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.scope3.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.scope2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +391,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420878151606</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="클로저로 함수를 커링하는 예">
+      <created>1420878638397</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1420878638397</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -460,7 +467,8 @@
     <MESSAGE value="자바스크립트에서 변수 유효범위가 어떻게 작동하는지 보여주는 예" />
     <MESSAGE value="scope2.html - 자바스크립트에서 전역 유효범위와 Window 객체&#10;scope3.html - 함축적인 전역 유효범위 변수 선언의 예" />
     <MESSAGE value="클로저가 어떻게 코드의 의미를 명료하게 만드는지 보여주는 두 가지 예" />
-    <option name="LAST_COMMIT_MESSAGE" value="클로저가 어떻게 코드의 의미를 명료하게 만드는지 보여주는 두 가지 예" />
+    <MESSAGE value="클로저로 함수를 커링하는 예" />
+    <option name="LAST_COMMIT_MESSAGE" value="클로저로 함수를 커링하는 예" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -655,8 +663,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter2/test/closure2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22804055" vertical-offset="0" max-vertical-offset="592">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/test/closure3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5320946" vertical-offset="0" max-vertical-offset="592">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
