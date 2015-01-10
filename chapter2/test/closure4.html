@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="main">main</div>
+<div id="sub">sub</div>
+<script>
+    // 클로저를 사용하는 여러 함수를 생성하는 데 필요한 유효범위를 만드는 익명 함수의 예
+
+    // ID가 main인 엘리먼트
+    var obj = document.getElementById("main");
+
+    // 이 엘리먼트에 연결할 아이템 배열
+    var items = [ "click", "keypress" ];
+
+    // 각 아이템을 방문한다.
+    for ( var i = 0, max = items.length; i < max; i += 1) {
+        // 유효범위를 만들기 위해 스스로를 실행하는 익명 함수를 사용한다.
+        (function(){
+            // 함수를 엘리먼트에 연결한다.
+            obj[ "on" + items[i] ] = function() {
+                // 다음에 나오는 변수 items[i]는 유효범위가 for 루프인
+                // 부모 변수 items[i]를 참조한다.
+                console.log( "Thanks for your " + items[i] );
+            };
+        }());
+    }
+
+    // 아니면 아래처럼 for 문의 본문으로 즉시실행함수를 사용하면 ( 블록을 즉시실행함수로 교체 )
+    // 즉시실행함수에 순서 값(ordinal value)을 전달함으로써 핸들러에서 ( 그리고 내부 함수의 클로저에서도 )
+    // 정확한 값을 사용하도록 할 수 있다.
+    /*
+    for ( var i = 0, max = items.length; i < max; i += 1) (function(n){
+        // 함수를 엘리먼트에 연결한다.
+        obj[ "on" + items[n] ] = function() {
+            // 다음에 나오는 변수 items[n]는 유효범위가 for 내에서 각 단계가 지닌 유효 범위 내에 변수 i가 새로 정의되고,
+            // 그 결과 이벤트핸들러의 클로저에 우리가 바라던 값을 전달할 수 있음을 의미한다.
+            console.log( "Thanks for your " + items[n] );
+        };
+    }(i))
+    */
+</script>
+</body>
+</html>
