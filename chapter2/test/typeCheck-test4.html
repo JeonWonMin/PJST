@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 함수에 전달되는 모든 전달인자를 엄격하게 관리하는 함수
+
+    // 변수 타입 목록을 기준으로 전달인자 목록을 엄격히 검사한다.
+    function strict( types, args ) {
+
+        // 타입의 개수와 전달인자 개수가 일치하는지 확인한다.
+        if ( types.length !== args.length ) {
+            // 일치하지 않으면 유용한 정보를 담은 예외를 던진다.
+            throw "Invalid number of arguments. Expected " + types.length + ", received " + args.length + " instead.";
+        }
+
+        // 각 전달인자를 방문하면서 타입을 검사한다.
+        for ( var i = 0, max = args.length; i < max; i += 1 ) {
+            // 타입이 일치하지 않으면 유용한 정보를 담은 예외를 던진다.
+            if ( args[i].constructor !== types[i] ) {
+                throw "Invalid argument type. Expected " + types[i].name + ", received " + args[i].constructor.name + " instead.";
+            }
+        }
+    }
+
+    // 사용자 목록을 출력하는 간단한 함수
+    function userList( prefix, num, users ) {
+        // prefix는 문자열, num은 숫자,
+        // users가 배열임을 명확히 한다.
+        strict( [ String, Number, Array ], arguments );
+
+        // 'num' 개수만큼 사용자들을 방문한다.
+        for ( var i = 0; i < num; i += 1) {
+            // 각 사용자에 관한 메시지를 출력한다.
+            console.log( prefix + ": " + users[i] );
+        }
+    }
+
+    userList( "프로 자바스크립트 테크닉 ", 2, [ "chapter" , "2" ]);
+
+</script>
+</body>
+</html>
