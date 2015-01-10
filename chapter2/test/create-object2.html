@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // constructor 프로퍼티를 사용하는 예
+
+    // 간단한 새 User 객체를 정의한다.
+    function User() {}
+
+    // 새 User 객체를 만든다.
+    var me = new User();
+
+    // 역시나 새 User 객체를 만든다.
+    // (첫 번째 User 객체의 constructor를 참조한다.
+    var you = new me.constructor();
+
+    // 실제로 constructor가 같음을 알 수 있다.
+    console.log( me.constructor == you.constructor );
+</script>
+</body>
+</html>
