@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 자바스크립트 함수 오버로딩에 관한 두 가지 예
+
+    // 메시지를 보내는 간단한 함수
+    function sendMessage( msg, obj ) {
+        // 메시지와 객체 모두를 받으면
+        if ( arguments.length == 2 ) {
+            // 객체에 메시지를 보낸다.
+            obj.console.log( msg );
+        } else { // 그렇지 않으면 메시지만 받았다고 판단한다.
+            // 단순히 기본 에러 메시지를 출력한다.
+            console.log( msg );
+        }
+    }
+
+    // 다음 두 호출 모두 제대로 작동한다.
+    sendMessage( "Hello, World!" );
+    sendMessage( "How are you?", window );
+
+    // 전달인자를 여러 개 받아 배열을 만들어 반환하는 함수
+    function makeArray() {
+        // 임시 배열
+        var arr = [];
+
+        // 각 전달인자를 방문한다.
+        for ( var i = 0, max = arguments.length; i < max; i += 1) {
+            arr.push( arguments[i] );
+        }
+
+        // 생성한 배열을 반환한다.
+        return arr;
+    }
+
+    console.log( makeArray( "Hello, World!", "How are you?" ) );
+</script>
+</body>
+</html>

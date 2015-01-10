@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 내용을 수정할 수 없는 새로운 객체를 만드는 객체 수정에 대한 예
+
+    // item이 새로운 문자열 객체를 가리키게 한다.
+    var item = "test";
+
+    // itemRef는 이제 동일한 문자열 각체를 가리킨다.
+    var itemRef = item;
+
+    // 문자열 객체에 새로운 텍스트를 이어붙인다.
+    // 주목: 이렇게 하면 원본 객체를 수정하지 않고
+    // 새로운 객체를 만든다.
+    item += "ing";
+
+    // 완전히 새로운 객체를 생성했기 때문에
+    // item과 itemRef는 서로 다르다.
+    console.log( item );
+    console.log( itemRef );
+    console.log( item != itemRef );
+</script>
+</body>
+</html>

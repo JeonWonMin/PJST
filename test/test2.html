@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>Introduction to the DOM</h1>
+<p class="test">There are a number of reasons why the DOM is awesome, here are some:</p>
+<ul>
+    <li id="everywhere">It can be found everywhere.</li>
+    <li class="test">It's easy to use.</li>
+    <li class="test">It can help you to find what you want, really quikly.</li>
+</ul>
+<script>
+    // 문서가 완전히 로드되기 전까지
+    // DOM을 조작할 수 없다.
+    window.onload = function(){
+
+        // 이벤트 처리기를 붙이기 위해 모든 <li> 엘리먼트를 찾는다.
+        var li = document.getElementsByTagName('li');
+        for ( var i = 0, max = li.length; i < max; i += 1) {
+
+            // <li>의 배경색을 파란색으로 바꾸는
+            // mouseover 이벤트 처리기를 <li> 엘리먼트에 붙인다.
+            li[i].onmouseover = function(){
+                this.style.backgroundColor = 'blue';
+            };
+
+            // <li>의 배경색을 기본색인 흰색으로 바꾸는
+            // mouseout 이벤트 처리기를 <li> 엘리먼트에 붙인다.
+            li[i].onmouseout = function(){
+                this.style.backgroundColor = 'white';
+            };
+
+        }
+
+    };
+</script>
+</body>
+</html>

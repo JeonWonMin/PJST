@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 스스로를 수정할 수 있는 객체에 대한 예
+
+    // 아이템 배열을 생성한다.
+    var items = [ "one", "two", "three" ];
+
+    // 아이템 배열에 대한 참조를 하나 생성한다.
+    var itemsRef = items;
+
+    // 원본 배열에 아이템을 하나 추가한다.
+    items.push( "four" );
+
+    // 두 변수가 동일한 배열 객체를 가리키기 때문에
+    // 각 배열의 크기가 같아야 한다.
+    console.log( items );
+    console.log( itemsRef );
+    console.log( items.length === itemsRef.length );
+</script>
+</body>
+</html>

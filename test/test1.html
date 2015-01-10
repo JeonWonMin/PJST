@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h1>Introduction to the DOM</h1>
+    <p class="test">There are a number of reasons why the DOM is awesome, here are some:</p>
+    <ul>
+        <li id="everywhere">It can be found everywhere.</li>
+        <li class="test">It's easy to use.</li>
+        <li class="test">It can help you to find what you want, really quikly.</li>
+    </ul>
+<script>
+    // 문서가 완전히 로드되기 전까지
+    // DOM을 조작할 수 없다.
+    window.onload = function(){
+
+        // 문서에서 모든 <li> 엘리먼트를 찾는다.
+        var li = document.getElementsByTagName('li');
+
+        // 각 <li> 엘리먼트에 빨간색 테두리를 씌운다.
+        for ( var j = 0, max = li.length; j < max; j += 1 ) {
+            li[j].style.border = '1px solid #ff0000';
+        }
+
+        // ID가 'everywhere'인 엘리먼트를 찾는다.
+        var every = document.getElementById( "everywhere" );
+
+        // 문서에서 이 엘리먼트를 제거한다.
+        every.parentNode.removeChild( every );
+
+    };
+</script>
+</body>
+</html>

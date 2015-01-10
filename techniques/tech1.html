@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 강의를 나타내는 생성자.
+    // name과 teacher 문자열을 받는다.
+    function Lecture( name, teacher ) {
+        // 두 문자열을 객체의 지역 프로퍼티에 저장한다.
+        this.name = name;
+        this.teacher = teacher;
+    }
+
+    // Leacture 클래스의 메서드.
+    // 강의 정보를 출력하기 위한 문자열을 만든다.
+    Lecture.prototype.display = function(){
+        return this.teacher + " is teaching " + this.name;
+    };
+
+    // 강의 목록을 담은 배열을 인자로 받는 Schedule 생성자.
+    function Schedule( lectures ) {
+        this.lectures = lectures;
+    }
+
+    // 강의 일정을 출력하기 위한 문자열을 만드는 메서드.
+    Schedule.prototype.display = function(){
+        var str = "";
+
+        // 각 강의 정보를 방문하면서
+        // 강의 정보를 담는 문자열을 만든다.
+        for ( var i = 0, max = this.lectures.length; i < max; i += 1) {
+            str += this.lectures[i].display() + " ";
+        }
+
+        return str;
+    };
+
+    ///////////////////////////////////////////////////////////////////
+
+    // 새로운 Schedule 객체를 만들고
+    // mySchedule이라는 변수에 저장한다.
+    var mySchedule = new Schedule([
+        // Schedule 객체의 유일한 전달인자인
+        // Lecture 객체들로 구성된 배열을 만든다.
+        new Lecture("Gym", "Mr. Smith"),
+        new Lecture("Math", "Mrs. Jones"),
+        new Lecture("English", "TBD")
+    ]);
+
+    // 팝업 창에 Schedule 정보를 출력한다.
+    console.log( mySchedule.display() );
+</script>
+</body>
+</html>

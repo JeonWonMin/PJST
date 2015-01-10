@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 원래 객체는 그대로 두고 한 객체의 참조를 변경
+
+    // items가 문자열 배열을 가리키게 한다.
+    var items = [ "one", "two", "three" ];
+
+    // itemsRef가 items 참조를 가리키게 한다.
+    var itemsRef = items;
+
+    // items가 새로운 객체를 가리키게 한다.
+    items = [ "new", "Array" ];
+
+    // items와 itemsRef는 이제 서로 다른 객체를 가리킨다.
+    // items는 [ "new", "Array" ]를 가리키고,
+    // itemsRef는 [ "one", "two", "three" ]를 가리킨다.
+    console.log( items !== itemsRef);
+</script>
+</body>
+</html>
