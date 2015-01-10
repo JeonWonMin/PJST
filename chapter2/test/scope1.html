@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 자바스크립트에서 변수 유효범위가 어떻게 작동하는지 보여주는 예
+
+    // 전역 변수 foo를 test로 설정
+    var foo = "test";
+
+    // if 블록 안
+    if ( true ) {
+        // foo를 'new test'로 설정
+        // 주목: 이곳은 여전히 전역 유효범위 안이다.
+        var foo = "new test";
+    }
+
+    // 다음에서 볼 수 있듯이 foo도 역시 'new test'가 되었다.
+    console.log( foo === "new test" );
+
+    // 변수 foo를 수정하는 함수를 만든다.
+    function test() {
+        var foo = "old test";
+    }
+
+    // 함수가 호출될 때 'foo'는 함수 유효범위 안에 있다.
+    test();
+
+    // 여기서 확인할 수 있다. foo의 값은 여전히 'new test' 다.
+    console.log( foo === "new test" );
+
+    // 전역 유효범위에 속하는 모든 변수들은 실제로는 그저 window 객체의 프로퍼티이다.
+    if ( window.foo ) {
+        console.log( "there is a foo.");
+    }
+</script>
+</body>
+</html>
