@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 함축적인 전역 유효범위 변수 선언의 예
+
+    // foo의 값을 설정하는 함수
+    function test() {
+        foo = "test";
+    }
+
+    // foo 값을 설정하기 위해 다음 함수를 호출한다.
+    test();
+
+    // foo는 이제 전역 유효범위를 가진다.
+    console.log( window.foo === "test" );
+</script>
+</body>
+</html>

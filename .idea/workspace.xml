@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1c2f569-4af5-42c9-9841-12c2f70c18e4" name="Default" comment="자바스크립트에서 변수 유효범위가 어떻게 작동하는지 보여주는 예">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/test/scope1.html" />
+    <list default="true" id="b1c2f569-4af5-42c9-9841-12c2f70c18e4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/test/scope2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/test/scope3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PJST.iws" />
@@ -27,26 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="reference-test1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter2/test/reference-test1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="480">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reference-test2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter2/test/reference-test2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="480">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="reference-test3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter2/test/reference-test3.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,11 +98,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scope1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scope1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter2/test/scope1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2027027" vertical-offset="0" max-vertical-offset="690">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="41" />
+            <state vertical-scroll-proportion="-15.916667" vertical-offset="98" max-vertical-offset="690">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scope2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter2/test/scope2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="360">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scope3.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter2/test/scope3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4814189" vertical-offset="0" max-vertical-offset="592">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -149,6 +150,8 @@
         <option value="$PROJECT_DIR$/test/typeCheck-test3.html" />
         <option value="$PROJECT_DIR$/chapter2/test/typeCheck-test4.html" />
         <option value="$PROJECT_DIR$/chapter2/test/scope1.html" />
+        <option value="$PROJECT_DIR$/chapter2/test/scope2.html" />
+        <option value="$PROJECT_DIR$/chapter2/test/scope3.html" />
       </list>
     </option>
   </component>
@@ -251,17 +254,7 @@
       <recent name="$PROJECT_DIR$/techniques" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.scope1.html">
-    <configuration default="false" name="overloading-test1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/test/overloading-test1.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="typeCheck-test1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/test/typeCheck-test1.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.scope3.html">
     <configuration default="false" name="typeCheck-test3.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/test/typeCheck-test3.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -273,6 +266,16 @@
       <method />
     </configuration>
     <configuration default="false" name="scope1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/scope1.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="scope2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/scope2.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="scope3.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/scope3.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -315,19 +318,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.overloading-test1.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.typeCheck-test1.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.typeCheck-test3.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.typeCheck-test4.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.scope1.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.typeCheck-test3.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.typeCheck-test4.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.scope1.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.scope2.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.scope3.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.scope1.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.typeCheck-test4.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.typeCheck-test3.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.typeCheck-test1.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.overloading-test1.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.scope3.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.scope2.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.scope1.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.typeCheck-test4.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.typeCheck-test3.html" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +369,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420874451323</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="자바스크립트에서 변수 유효범위가 어떻게 작동하는지 보여주는 예">
+      <created>1420876081478</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1420876081478</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -595,8 +604,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter2/test/scope1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2027027" vertical-offset="0" max-vertical-offset="690">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="41" />
+        <state vertical-scroll-proportion="-15.916667" vertical-offset="98" max-vertical-offset="690">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/test/scope2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="360">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/test/scope3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4814189" vertical-offset="0" max-vertical-offset="592">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
       </provider>
