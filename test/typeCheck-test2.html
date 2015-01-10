@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 객체의 타입을 결정하는 데 typeof를 사용한 예
+
+    // 숫자를 담은 변수가 실제로는 문자열인지 검사한다.
+    if ( typeof num == "string" ) {
+        // 그렇다면 문자열을 파싱해서 숫자를 얻는다.
+        num = parseInt( num );
+    }
+
+    // 배열을 담은 변수가 실제로는 문자열인지 검사한다.
+    if ( typeof arr == "string" ) {
+        // 그렇다면 배열을 만들기 위해 쉼표(,)를 기준으로 문자열을 나눈다.
+        arr = arr.split(",");
+    }
+</script>
+</body>
+</html>
