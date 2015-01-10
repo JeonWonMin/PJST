@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 간단한 객체를 하나 생성하고 프로퍼티를 설정하는 두 가지 예
+
+    // Object 객체를 만들고 obj 안에 저장한다.
+    var obj = new Object();
+
+    // 이 객체의 프로퍼티 몇 개를 다른 값으로 설정한다.
+    obj.val = 5;
+    obj.click = function(){
+        console.log( "hello" );
+    };
+
+    console.dir( obj );
+
+    // 프로퍼티를 정의하는 키/값 쌍을 {...} 방식으로 나열하여,
+    // 앞의 코드와 동일한 일을 하는 코드다.
+    var obj = {
+
+        // 키/값을 사용해 프로퍼티 이름과 값을 설정한다.
+        val: 5,
+        click: function(){
+            console.log( "hello" );
+        }
+    };
+
+    console.dir( obj );
+</script>
+</body>
+</html>
