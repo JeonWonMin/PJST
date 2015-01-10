@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 한 콘텍스트 안에서 함수를 사용한 후 콘텍스트를 다른 변수로 바꾸는 예
+
+    var obj = {
+        yes: function(){
+            // this === obj
+            this.val = true;
+        },
+        no: function(){
+            this.val = false;
+        }
+    };
+
+    //console.log( obj );
+
+    // obj 객체에 val이라는 프로퍼티는 없다.
+    console.log( obj.val == null );
+
+    // yes 함수를 호출하면 obj 객체와 연결된
+    // val 프로퍼티의 값이 바뀐다.
+    obj.yes();
+    console.log( obj.val == true );
+
+    // 이제 window.no가 메서드 obj.no를 가리키게 한 다음 메서드를 실행해 보자.
+    window.no = obj.no;
+    window.no();
+
+    // obj 객체는 그대로 있고
+    // (콘텍스트가 window 객체로 바뀌었기 때문에),
+    console.log( obj.val == true );
+
+    // window의 val 프로퍼티 값이 바뀌었다.
+    console.log( window.val == false );
+
+    console.log( obj );
+    console.log( window );
+</script>
+</body>
+</html>
