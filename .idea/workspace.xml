@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1c2f569-4af5-42c9-9841-12c2f70c18e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/test/privileged-method1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/test/privileged-method2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PJST.iws" />
@@ -27,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="closure4.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter2/test/closure4.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.9166665" vertical-offset="188" max-vertical-offset="780">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="context1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter2/test/context1.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="privileged-method1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="privileged-method1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter2/test/privileged-method1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47802198" vertical-offset="0" max-vertical-offset="910">
+            <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="570">
               <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="privileged-method2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter2/test/privileged-method2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.77472526" vertical-offset="0" max-vertical-offset="910">
+              <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -166,6 +166,7 @@
         <option value="$PROJECT_DIR$/chapter2/test/public-method.html" />
         <option value="$PROJECT_DIR$/chapter2/test/private-method.html" />
         <option value="$PROJECT_DIR$/chapter2/test/privileged-method1.html" />
+        <option value="$PROJECT_DIR$/chapter2/test/privileged-method2.html" />
       </list>
     </option>
   </component>
@@ -271,12 +272,7 @@
       <recent name="$PROJECT_DIR$/techniques" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.privileged-method1.html">
-    <configuration default="false" name="create-object1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/create-object1.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.privileged-method2.html">
     <configuration default="false" name="create-object2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/create-object2.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -293,6 +289,11 @@
       <method />
     </configuration>
     <configuration default="false" name="privileged-method1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/privileged-method1.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="privileged-method2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63334/PJST/chapter2/test/privileged-method2.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -335,19 +336,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.create-object1.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.create-object2.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.public-method.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.private-method.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.privileged-method1.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.create-object2.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.public-method.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.private-method.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.privileged-method1.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.privileged-method2.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.privileged-method1.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.private-method.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.public-method.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.create-object2.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.create-object1.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.privileged-method2.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.privileged-method1.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.private-method.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.public-method.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.create-object2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -470,7 +471,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420954045420</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="privileged 메서드를 사용하는 예">
+      <created>1420971892958</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1420971892958</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -550,7 +557,8 @@
     <MESSAGE value="constructor 프로퍼티를 사용하는 예" />
     <MESSAGE value="prototype 객체를 통해 추가한 메서드를 갖는 객체의 예" />
     <MESSAGE value="생성자 함수에서만 사용할 수 있는 private 메서드 예" />
-    <option name="LAST_COMMIT_MESSAGE" value="생성자 함수에서만 사용할 수 있는 private 메서드 예" />
+    <MESSAGE value="privileged 메서드를 사용하는 예" />
+    <option name="LAST_COMMIT_MESSAGE" value="privileged 메서드를 사용하는 예" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -833,8 +841,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter2/test/privileged-method1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47802198" vertical-offset="0" max-vertical-offset="910">
+        <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="570">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/test/privileged-method2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77472526" vertical-offset="0" max-vertical-offset="910">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
           <folding />
         </state>
       </provider>

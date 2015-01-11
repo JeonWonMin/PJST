@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 새 객체 인스턴스가 만들어질 때 동적으로 생성되는 메서드 예
+
+    // 프로퍼티들을 나타내는 객체를 받는 새로운 User 객체를 만든다.
+    function User( properties ) {
+        // 객체 프로퍼티를 하나씩 방문하면서
+        // 유효범위를 설정한다.
+        var self = this;
+        for ( var i in properties ) { (function() {
+            var prop = i;
+            // 이 프로퍼티를 위한 새 get 메서드를 만든다.
+            self[ "get" + i ] = function() {
+                return properties[prop];
+            };
+
+            // 이 프로퍼티를 위한 새 set 메서드를 만든다.
+            self[ "set" + i ] = function( val ) {
+                properties[i] = val;
+            };
+        }()); }
+    }
+
+    // 새로운 User 객체를 하나 생성하고
+    // 초깃값으로 사용될 프로퍼티들을 나타내는 객체를 전달한다.
+    var user = new User({
+        name: "Wonmin",
+        age: 34
+    });
+
+    // properties 객체 안에서 name 프로퍼티는 private이기 때문에
+    // 외부에서 볼 때는 존재하지 않는다.
+    console.log( user.name == null );
+
+    // 그렇지만 동적으로 만들어지는 메서드인
+    // getName() 메서드에는 접근할 수 있다.
+    console.log( user.getname() == "Wonmin" );
+
+    // 새로 만들어진 함수로
+    // age의 값을 설정하거나 가져올 수 있다.
+    user.setage( 35 );
+    console.log( user.getage() == 35 );
+</script>
+</body>
+</html>
