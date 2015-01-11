@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // privileged 메서드를 사용하는 예
+    // 새로운 User 객체 생성자를 만든다.
+    function User( name, age ) {
+        // 사용자가 태어난 날을 계산한다.
+        var year = (new Date()).getFullYear() - age;
+
+        // year 변수에 접근할 수 있으면서도 여전히 외부에서
+        // 사용할 수 있는 privileged 메서드를 만든다.
+        this.getYearBorn = function(){
+            return year;
+        };
+    }
+
+    // User 객체의 새 인스턴스를 만든다.
+    var user = new User( "Wonmin", 34 );
+
+    // 반환된 날짜가 올바른지 확인한다.
+    console.log( user.getYearBorn() === 1981 );
+
+    // 객체의 private 프로퍼티인 year에는 접근할 수 없다.
+    console.log( user.year == null );
+
+</script>
+</body>
+</html>
