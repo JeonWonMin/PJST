@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 프로토타입 상속의 예
+
+    // Person 객체를 위한 생성자를 만든다.
+    function Person( name ) {
+        this.name = name;
+    }
+
+    // Person 객체에 새 메서드를 추가한다.
+    Person.prototype.getName = function() {
+        return this.name;
+    };
+
+    // User 객체 생성자를 만든다.
+    function User( name, password ) {
+        // 상위 클래스의 생성자를 호출한다거나 하는,
+        // 우아한(graceful) 오버로딩이나 상속은 지원하지 않는다.
+        this.name = name;
+        this.password = password;
+    };
+
+    // User 객체가 Person 객체의 모든 메서드를 상속한다.
+    User.prototype = new Person();
+
+    // User 객체에 새 메서드를 하나 추가한다.
+    User.prototype.getPassword = function() {
+        return this.password;
+    };
+
+    var user = new User("Wonmin", "aa0224");
+    console.log( user.getName() );
+    console.log( user.getPassword() );
+</script>
+</body>
+</html>
