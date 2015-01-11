@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // prototype 객체를 통해 추가한 메서드를 갖는 객체의 예
+
+    // 새 User 생성자를 만든다.
+    function User( name, age ) {
+        this.name = name;
+        this.age = age;
+    }
+
+    // 객체 프로토타입에 새 함수를 추가한다.
+    User.prototype.getName = function(){
+        return this.name;
+    };
+
+    // 프로토타입에 또 다른 함수를 추가한다.
+    // 콘텍스트는 생성될 객체 안에 존재한다.
+    User.prototype.getAge = function(){
+        return this.age;
+    };
+
+    // 새 User 객체를 만든다.
+    var user = new User( "Wonmin", 35 );
+
+    // 앞에서 추가한 두 메서드가 적절한 콘텍스트를
+    // 갖고 객체에 들어 있음을 알 수 있다.
+    console.log( user.getName() === "Wonmin" );
+    console.log( user.getAge() === 35 );
+</script>
+</body>
+</html>
