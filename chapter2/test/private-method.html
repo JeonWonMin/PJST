@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    // 생성자 함수에서만 사용할 수 있는 private 메서드 예
+
+    // 교실을 표현하는 객체 생성자
+    function Classromm( students, teacher ) {
+        // 수업을 듣는 모든 학생의 정보를 출력하는 private 메서드
+        function disp() {
+            console.log( this.students.join(", ") );
+        }
+
+        // 수업 정보를 public 객체 프로퍼티에 저장한다.
+        this.students = students;
+        this.teacher = teacher;
+
+        // 오류를 출력하기 위해 private 메서드를 호출한다.
+        disp();
+    }
+
+    // 새로운 교실 객체를 만든다.
+    var klass = new Classromm( [ "Wonmin", "Jeon" ], "Mr. Peter" );
+
+    // disp는 이 객체의 public 프로퍼티가 아니기 때문에 실패한다.
+    klass.disp();
+</script>
+</body>
+</html>
